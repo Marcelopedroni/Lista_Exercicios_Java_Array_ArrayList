@@ -4,19 +4,6 @@ import javax.swing.JOptionPane;
 
 public class Mes {
     private int mes[] = {31,28,31,30,31,30,31,31,30,31,30,31};
-
-    public int[] getMes() {
-        return mes;
-    }
-
-    public void setMes(int[] mes) {
-        this.mes = mes;
-    }
-
-    public Mes() {
-    }
-    
-    
     
     public void mes(){
         
