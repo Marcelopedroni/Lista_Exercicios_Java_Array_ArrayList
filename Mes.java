@@ -5,8 +5,7 @@ import javax.swing.JOptionPane;
 public class Mes {
     private int mes[] = {31,28,31,30,31,30,31,31,30,31,30,31};
     
-    public void mes(){
-        
+    public void mes(){    
         int m;
         m = Integer.parseInt(JOptionPane.showInputDialog("Digite o número do mês desejado: "));
         if (m != 1 && m != 2 && m != 3 && m != 4 && m != 5 && m != 6 &&
